@@ -66,3 +66,21 @@ Copy the prepared `bin` folder into `dist`, so the final layout is:
 Run `dist\P0rnoHuber.exe`. The complete `dist` folder is portable and does not
 require Python on the destination computer. Keep `bin` next to the application;
 the application executable does not embed these external tools.
+
+---
+
+WAŻNE dot. WYDANIA WINDOWS / IMPORTANT about WINDOWS RELEASE 
+
+Dlaczego paczka ma około 200 MB?
+
+Sam P0rnoHuber jest niewielki. Większość miejsca zajmują dołączone narzędzia: FFmpeg i FFprobe do obsługi obrazu i dźwięku, yt-dlp do pobierania oraz Deno potrzebne do obsługi YouTube. W aplikacji znajduje się też środowisko Pythona.
+
+Dołączyłem je, żeby nie trzeba było niczego osobno instalować ani konfigurować. Rozpakowujesz całą paczkę, uruchamiasz program i możesz pobierać.
+
+-
+
+Why is the download around 200 MB?
+
+P0rnoHuber itself is small. Most of the space is taken up by the included tools: FFmpeg and FFprobe for handling video and audio, yt-dlp for downloading, and Deno for YouTube support. The application also includes the Python runtime.
+
+I bundled these so you don’t have to install or configure them yourself. Just extract the whole archive, open the app, and start downloading.
